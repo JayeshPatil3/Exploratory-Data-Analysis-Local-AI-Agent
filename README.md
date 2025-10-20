@@ -54,7 +54,7 @@ The repository contains all the necessary files for setup and execution:
 
 Follow these commands in your PowerShell terminal to get the project running locally.
 
-### Step 1: Clone the Repository
+## Step 1: Clone the Repository
 
 Clone your repository and navigate into the project directory:
 
@@ -70,7 +70,7 @@ cd <YOUR\_PROJECT\_NAME>
 
 ```
 
-### Step 2: Create and Activate Virtual Environment
+## Step 2: Create and Activate Virtual Environment
 
 A virtual environment ensures clean dependency management:
 
@@ -91,7 +91,7 @@ python -m venv venv
 (Your prompt will show `(venv)` once activated.)
 
 
-### Step 3: Install Dependencies
+## Step 3: Install Dependencies
 
 Install all libraries specified in `requirements.txt`:
 
@@ -101,7 +101,7 @@ pip install -r requirements.txt
 
 ```
 
-### Step 4: Configure the API Key
+## Step 4: Configure the API Key
 
 The application reads your secret key from the local `.env` file.
 
@@ -125,7 +125,7 @@ NVIDIA\_API\_KEY="YOUR\_NVIDIA\_API\_KEY\_HERE"
 Save the file. (The `.gitignore` will ensure this sensitive file is never uploaded.)
 
 
-### Step 5: Run the Application
+## Step 5: Run the Application
 
 Start the Streamlit web application:
 
@@ -141,10 +141,11 @@ This command will automatically launch the Data Analyst Assistant in your web br
 
 ## Agent Snapshots:
 Initially after uploading the data and asking for the summary the agent will look like
-[Generate Insight(Deep Dive)](Images/Deep_Insight.jpg)
+![Generate Insight(Deep Dive)](Images/Deep_Insight.jpg)
 
 The visuals created by Agent looks like
-[Visual Sample](Images/Visuals.jpg)
+
+![Visual Sample](Images/Visuals.jpg)
 
 ## Future Scope
 
