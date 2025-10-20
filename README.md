@@ -1,4 +1,4 @@
-# 🤖 NVIDIA NIM Data Analyst AssistantConversational Exploratory Data Analysis (EDA) Tool
+# 🤖 Data Analyst Conversational Exploratory Data Analysis (EDA) Tool
 
 
 
