@@ -1,0 +1,15 @@
+# --- IDE and OS Temporary Files ---
+.idea/          # Ignore PyCharm/IntelliJ metadata
+.DS_Store       # Ignore macOS metadata
+Thumbs.db       # Ignore Windows thumbnail cache
+
+# --- Virtual Environments and Build Artifacts ---
+venv/
+nim_data_env/   
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Secrets and Configuration ---
+.env            # CRITICAL: Contains sensitive API key

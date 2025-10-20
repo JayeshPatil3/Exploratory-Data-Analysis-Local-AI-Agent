@@ -1,0 +1,10 @@
+streamlit
+pandas
+numpy
+matplotlib
+seaborn
+plotly
+python-dotenv
+langchain-core
+langchain-nvidia-ai-endpoints
+openpyxl
